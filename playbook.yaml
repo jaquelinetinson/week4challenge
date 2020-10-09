@@ -1,1 +1,18 @@
-
+- hosts: 127.0.0.1
+  connection: local
+  become: true
+  tasks:
+  - name: 'Install requirements'
+    apt:
+      pkg:
+      - curl
+      - apt-transport-https
+      - ca-certificates
+      - software-properties-common
+      - python3-pip 
+      - virtualenv 
+      - python3-setuptools
+      update_cache: yes
+ 
+  
+     
