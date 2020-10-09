@@ -26,12 +26,8 @@
       name: docker-ce
       state: latest
       update_cache: yes
-      
-   - name: 'Install Docker Module for Python'
-     pip:
-        name: docker  
-        
-    - name: 'Run Docker'
+            
+  - name: 'Run Docker'
       service:
         name: docker
         state: started
