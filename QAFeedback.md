@@ -10,7 +10,7 @@ I thought it was fair, and I expected to face more issues due to the technical c
 I feel althought I didn't have much practice time I believe I understood the logic behind it and was confortable creating the playbook.
 
 ## What didn't go as planned?
-My vm didn't work for half of the time but I had a window when it worked and was able to test my playbook.
+My vm didn't work for half of the time but I had a window when it worked and was able to test my playbook for the main task. The only frustation is that I couldn't really try the strech goal.
 
 ## Possible improvements for future challenges.
 Keep on practising.
