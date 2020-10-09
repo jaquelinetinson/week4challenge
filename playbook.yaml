@@ -1,4 +1,4 @@
-- hosts: 127.0.0.1
+- hosts: 127.0.0.1 
   connection: local
   become: true
   tasks:
@@ -27,7 +27,7 @@
       state: latest
       update_cache: yes
             
-  - name: 'Run Docker'
-      service:
-        name: docker
-        state: started
+  - name: 'Run docker'
+    service:
+      name: docker
+      state: started 
